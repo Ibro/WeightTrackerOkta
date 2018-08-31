@@ -10,6 +10,7 @@ using WeightTrackerOkta.Models;
 
 namespace WeightTrackerOkta.Controllers
 {
+    [Authorize]
     public class WeightMeasurementsController : ApiController
     {
         private ApplicationDbContext db = new ApplicationDbContext();

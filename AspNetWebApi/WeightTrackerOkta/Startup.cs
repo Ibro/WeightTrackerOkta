@@ -20,7 +20,7 @@ namespace WeightTrackerOkta
             // Configure JWT Bearer middleware
             // with an OpenID Connect Authority
 
-            var authority = "https://{yourOktaDomain}/oauth2/default";
+            var authority = "https://dev-106602.oktapreview.com/oauth2/default";
 
             var configurationManager = new ConfigurationManager<OpenIdConnectConfiguration>(
                 authority + "/.well-known/openid-configuration",
