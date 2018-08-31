@@ -10,8 +10,8 @@ import Hello from '@/components/Hello'
 import WeightRecords from '@/components/WeightRecords'
 
 Vue.use(Auth, {
-  issuer: 'https://https://dev-106602.oktapreview.com/oauth2/default',
-  client_id: '0oag3okn3jfoeErAd0h7',
+  issuer: 'https://{oktaDomain}/oauth2/default',
+  client_id: '{oktaClientId}',
   redirect_uri: 'http://localhost:8080/implicit/callback',
   scope: 'openid profile email'
 })
