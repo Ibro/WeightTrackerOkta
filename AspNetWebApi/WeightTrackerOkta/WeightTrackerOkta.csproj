@@ -180,9 +180,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201808302046103_Initial.cs" />
-    <Compile Include="Migrations\201808302046103_Initial.Designer.cs">
-      <DependentUpon>201808302046103_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201808310810507_Initial.cs" />
+    <Compile Include="Migrations\201808310810507_Initial.Designer.cs">
+      <DependentUpon>201808310810507_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\WeightMeasurement.cs" />
@@ -207,8 +207,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201808302046103_Initial.resx">
-      <DependentUpon>201808302046103_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201808310810507_Initial.resx">
+      <DependentUpon>201808310810507_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

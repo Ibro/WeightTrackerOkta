@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ title }}</h1>
-    <h2>Take care of your daily calories intake</h2>
+    <h2>Track your weight measurements</h2>
   </div>
 </template>
 

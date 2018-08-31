@@ -13,7 +13,7 @@ namespace WeightTrackerOkta.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201808302046103_Initial"; }
+            get { return "201808310810507_Initial"; }
         }
         
         string IMigrationMetadata.Source
